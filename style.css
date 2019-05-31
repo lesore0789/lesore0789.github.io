@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right,  #de6161, #2657eb);
+  font-family: 'Anonymous Pro', monospace !important; 
+  /* font-family: 'Open Sans', sans-serif !important; */
+}
+
+/* Navbar */
+nav.navbar-custom{
+  background-color: transparent !important;
+}
+
+a.nav-link{
+  color:rgba(250,250,250,0.7) !important;
+  transition: 0.4s;
+}
+
+a.nav-link:hover{
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Header */
+.header{
+	height: 100vh;
+  position: relative;
+  margin: auto;
+}
+
+.description{
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+
+}
+.description h1{
+	color:rgb(228, 228, 228) ;
+}
+.description p{
+	color:rgb(224, 211, 211);
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+/* About */
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color: rgba(250,250,250,0.9);
+	margin: 1em;
+}
+
+div.group{
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: rgba(250,250,250,0.3);
+}
+.about img{
+	height: auto;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.about .info{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.about span{
+	display: block;
+	color: white;
+	position: absolute;
+	left:38%;
+}
+.about .desc{
+	padding: 1em;
+	border-right: 3px solid #2657eb;
+}
+.about .desc h3{
+	color: #2657eb;
+}
+.about .desc p{
+	line-height:2;
+	color:white;
+}
+
+/* Code */
+
+.project{
+	margin: 4em 0;
+  position: relative;	
+}
+
+div.project h1{
+  color: rgba(250,250,250,0.9);
+}
+
+div.project h4{
+  color: rgba(250,250,250,0.5)
+}
+
+p.card-text{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Contact */
+
+div.holla{
+  margin: 4em 0;
+  padding-top: 4em;
+  position: relative;
+  padding-left: 40px;
+}
+
+div.holla h1{
+  color: rgba(250,250,250,0.8);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 991px) {
+  .about .desc{
+    padding: 1em;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container .info{
+    order: 2;
+  }
+  .container .pic{
+    order: 1;
+  }
+}
