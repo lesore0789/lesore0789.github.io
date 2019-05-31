@@ -130,6 +130,9 @@ div.holla h1{
     padding: 1em;
     border: none;
   }
+  div.info{
+    margin-top: 3em;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -138,5 +141,9 @@ div.holla h1{
   }
   .container .pic{
     order: 1;
+  }
+  div.card.mid{
+    margin-top:1em;
+    margin-bottom:1em;
   }
 }
